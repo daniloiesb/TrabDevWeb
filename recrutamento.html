@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="recrutamento.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="principal.css">
+
+    <title>Recrutamento</title>
+  </head>
+
+  <body>  
+
+      <h1>Guilda Angelic Order</h1>
+
+    <div>
+      <br>
+      <br>
+      <h3>Formulário para Recrutamento de Novos Membros</h3>
+        <br>
+      <p>Preencha as informações abaixo</p>
+      <br>
+
+    </div>
+
+     <form>
+
+       <fieldset class="grupo">
+
+         <div class="campo">
+
+            <label for="nome"><strong>Seu nome</strong></label>
+            <input type="text" name="nome" id="nome" required>
+            
+        </div>
+
+          <div class="campo">
+
+            <label for="nomePersonagem"><strong>Nome do seu personagem</strong></label>
+            <input type="text" name="nomePersonagem" id="nomePersonagem" required>
+
+        </div>
+
+      </fieldset> 
+
+      <div class="campo">
+
+        <label for="email"><strong>E-mail</strong></label>
+        <input type="email" name="email" id="email" required>
+
+      </div>
+
+      <div class="campo">
+
+        <label><strong>Qual sua main role?</strong></label>
+        <label>
+          <input type="radio" name="role" value="tank" checked>Tank
+        </label>
+
+        <label>
+          <input type="radio" name="role" value="healer">Healer
+        </label>
+
+        <label>
+          <input type="radio" name="role" value="DPS">DPS
+        </label>
+
+      </div>
+
+      <div class="campo">
+
+        <label for="offspec"><strong>Possui offspec?</strong></label>
+        <select id="offspec" required>
+          <option selected disabled value="">Selecione</option>
+          <option>Sim</option>
+          <option>Não</option>
+        </select>
+
+      </div>
+
+      <fieldset class="grupo">
+
+        <div id="check">
+          <label><strong>Quais suas classes?</strong></label><br><br>
+            <input type="checkbox" id="paladin" name="paladin" value="Paladino">
+              <label for="paladin"> Paladino</label>
+              <input type="checkbox" id="warrior" name="warrior" value="Warrior">
+              <label for="warrior">Guerreiro</label>
+              <input type="checkbox" id="druid" name="druid" value="Druid">
+              <label for="druid">Druida</label>
+              <input type="checkbox" id="warlock" name="warlock" value="Warlock">
+              <label for="warlock">Warlock</label>
+              <input type="checkbox" id="mage" name="mage" value="Mage">
+              <label for="mage">Mago</label>
+              <input type="checkbox" id="hunter" name="hunter" value="Hunter">
+              <label for="hunter"> Caçador</label>
+              <input type="checkbox" id="monk" name="monk" value="Monk">
+              <label for="monk">Monge</label>
+        </div>
+            </fieldset>
+
+            <div class="campo">
+                <br>
+                <label for="expectativas"><strong>Quais são as suas maiores expectativas em relação a tornar-se membro da guilda? </strong></label>
+                <textarea rows="6" style="width: 26em" id="expectativas" name="expectativas"></textarea>
+            </div>
+
+            <button class="botao" type="submit" onsubmit="">Enviar</button>            
+
+        </form>
+
+        <footer>
+          <div>
+              <h3>Contatos</h3>
+              
+                  <p><a class="gg-laptop icone"></a><b>Servidor</b> Azeroth</p>
+                  <p><a class="gg-phone icone"></a>61 98888-8888</p>
+                  <p><a class="gg-mail icone"></a><a href="mailto:contato@guildangelicorder.com">contato@guildangelicorder.com</a></p>
+              
+          </div>
+             
+          <div>
+              <h3>Sobre a Guilda</h3>
+              <p>Fundada em 1998, a Guilda Angelic Order sempre está em busca de novos jogadores. Somos uma grande família que aprende, se diverte e cresce junto.
+              </p>
+  
+          </div>
+      </footer>  
+
+    </body>
+
+</html>
